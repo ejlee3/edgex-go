@@ -1,10 +1,12 @@
 module github.com/edgexfoundry/edgex-go
 
+replace github.com/edgexfoundry/go-mod-bootstrap/v3 => ../go-mod-bootstrap
+
 require (
 	bitbucket.org/bertimus9/systemstat v0.0.0-20180207000608-0eeff89b0690
 	github.com/eclipse/paho.mqtt.golang v1.4.2
 	github.com/edgexfoundry/go-mod-bootstrap/v3 v3.0.0-dev.16
-	github.com/edgexfoundry/go-mod-configuration/v3 v3.0.0-dev.2
+	github.com/edgexfoundry/go-mod-configuration/v3 v3.0.0-dev.3
 	github.com/edgexfoundry/go-mod-core-contracts/v3 v3.0.0-dev.6
 	github.com/edgexfoundry/go-mod-messaging/v3 v3.0.0-dev.4
 	github.com/edgexfoundry/go-mod-secrets/v3 v3.0.0-dev.5
